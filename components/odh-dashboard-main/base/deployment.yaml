@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: odh-dashboard-main
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/odh-dashboard-main@sha256:4ad9a38d11829cc667d0bbd09f122d865bb704c9e3f45c98d6a58206fdc26bc9
         imagePullPolicy: Always
         name: container-image
         ports:
