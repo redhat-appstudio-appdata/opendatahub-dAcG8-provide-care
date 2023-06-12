@@ -11,8 +11,8 @@ metadata:
   name: data-science-pipelines-operator
 spec:
   ports:
-  - port: 8085
-    targetPort: 8085
+  - port: 8089
+    targetPort: 8089
   selector:
     app.kubernetes.io/instance: data-science-pipelines-operator
 status:
