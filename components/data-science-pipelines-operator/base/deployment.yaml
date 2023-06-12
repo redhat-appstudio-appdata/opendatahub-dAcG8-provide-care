@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: data-science-pipelines-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: data-science-pipelines-operator
+    app.kubernetes.io/part-of: opendatahub
+  name: data-science-pipelines-operator
+spec:
+  replicas: 1
+  revisionHistoryLimit: 0
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: data-science-pipelines-operator
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app.kubernetes.io/instance: data-science-pipelines-operator
+    spec:
+      containers:
+      - image: image
+        imagePullPolicy: Always
+        name: container-image
+        ports:
+        - containerPort: 8088
+        resources:
+          requests:
+            cpu: "1"
+            memory: 500Mi
+status: {}
