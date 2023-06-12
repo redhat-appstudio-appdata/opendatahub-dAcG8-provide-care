@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: data-science-pipelines-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: data-science-pipelines-operator
+    app.kubernetes.io/part-of: opendatahub
+  name: data-science-pipelines-opvhmf
+spec:
+  port:
+    targetPort: 8088
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: data-science-pipelines-operator
+    weight: 100
+status: {}
