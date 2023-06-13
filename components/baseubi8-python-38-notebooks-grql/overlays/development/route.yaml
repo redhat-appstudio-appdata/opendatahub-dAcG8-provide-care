@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: baseubi8-python-38-notebooks-grql
     app.kubernetes.io/part-of: opendatahub
-  name: baseubi8-python-38-notebommxf
+  name: baseubi8-python-38-notebofxg7
 spec:
   port:
     targetPort: 8888
