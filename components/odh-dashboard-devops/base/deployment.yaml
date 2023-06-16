@@ -30,6 +30,6 @@ spec:
         - containerPort: 8080
         resources:
           requests:
-            cpu: 10m
-            memory: 50Mi
+            cpu: 100m
+            memory: 500Mi
 status: {}
