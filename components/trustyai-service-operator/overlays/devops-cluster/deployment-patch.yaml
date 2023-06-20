@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: trustyai-service-operator
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/trustyai-service-operator@sha256:67bf79fb25be9afc53fcab56b01c86ac95b45f724aeff2ed1ad689bfaacfa956
+        name: container-image
+        resources: {}
+status: {}
