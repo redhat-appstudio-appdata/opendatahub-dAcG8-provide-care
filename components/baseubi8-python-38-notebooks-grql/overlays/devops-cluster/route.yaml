@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: baseubi8-python-38-notebooks-grql
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: baseubi8-python-38-notebooks-grql
+    app.kubernetes.io/part-of: opendatahub
+  name: baseubi8-python-38-noteboncam
+spec:
+  port:
+    targetPort: 8888
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: baseubi8-python-38-notebooks-grql
+    weight: 100
+status: {}

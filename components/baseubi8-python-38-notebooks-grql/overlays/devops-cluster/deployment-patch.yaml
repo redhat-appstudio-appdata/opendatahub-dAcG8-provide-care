@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: baseubi8-python-38-notebooks-grql
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/baseubi8-python-38-notebooks-grql@sha256:4009097a42e0620ee865b88a61c1320bdb59c53876f9223699b5735cf4c99fe3
+        name: container-image
+        resources: {}
+status: {}
