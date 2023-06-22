@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: trustyai-explainability-7ffg
     app.kubernetes.io/part-of: opendatahub
-  name: trustyai-explainability-7firg
+  name: trustyai-explainability-72b7g
 spec:
   port:
     targetPort: 8080
