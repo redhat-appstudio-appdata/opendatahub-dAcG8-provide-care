@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: odh-dashboard-main
     app.kubernetes.io/part-of: opendatahub
-  name: odh-dashboard-mainxi61
+  name: odh-dashboard-mainl0dk
 spec:
   port:
     targetPort: 8080
