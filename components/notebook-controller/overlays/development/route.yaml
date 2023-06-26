@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: notebook-controller
     app.kubernetes.io/part-of: opendatahub
-  name: notebook-controllersde7
+  name: notebook-controlleriisr
 spec:
   path: /
   port:
