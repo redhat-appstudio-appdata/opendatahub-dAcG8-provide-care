@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: opendatahub-operator
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/opendatahub-operator@sha256:47cc04b0d13258524e922a3fa5168962f7adbd39ff97dbea74a05c9eb95be424
         imagePullPolicy: Always
         name: container-image
         ports:
