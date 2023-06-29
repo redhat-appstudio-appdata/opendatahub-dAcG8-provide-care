@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: opendatahub-operator
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/opendatahub-operator@sha256:47cc04b0d13258524e922a3fa5168962f7adbd39ff97dbea74a05c9eb95be424
+        name: container-image
+        resources: {}
+status: {}
