@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: modelmesh-fzxz
     app.kubernetes.io/part-of: opendatahub
-  name: modelmesh-fzxzkj1r
+  name: modelmesh-fzxzzkpw
 spec:
   port:
     targetPort: 8080
