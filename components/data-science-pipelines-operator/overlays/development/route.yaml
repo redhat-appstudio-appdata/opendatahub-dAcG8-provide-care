@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: data-science-pipelines-operator
     app.kubernetes.io/part-of: opendatahub
-  name: data-science-pipelines-op5m3k
+  name: data-science-pipelines-oppzoy
 spec:
   port:
     targetPort: 8088
