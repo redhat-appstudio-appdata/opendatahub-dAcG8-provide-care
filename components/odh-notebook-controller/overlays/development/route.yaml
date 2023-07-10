@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: odh-notebook-controller
     app.kubernetes.io/part-of: opendatahub
-  name: odh-notebook-controllerjdsd
+  name: odh-notebook-controllerh3cm
 spec:
   port:
     targetPort: 8080
