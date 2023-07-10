@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kserve
     app.kubernetes.io/part-of: opendatahub
-  name: kserven4fm
+  name: kserveoc2c
 spec:
   port:
     targetPort: 8443
