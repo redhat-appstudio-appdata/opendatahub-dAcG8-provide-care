@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: odh-dashboard-devops
     app.kubernetes.io/part-of: opendatahub
-  name: odh-dashboard-devops3xqv
+  name: odh-dashboard-devopse7hx
 spec:
   port:
     targetPort: 8080
