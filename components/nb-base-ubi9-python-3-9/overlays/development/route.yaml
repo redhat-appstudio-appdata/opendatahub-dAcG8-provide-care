@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: nb-base-ubi9-python-3-9
     app.kubernetes.io/part-of: opendatahub
-  name: nb-base-ubi9-python-3-98yhq
+  name: nb-base-ubi9-python-3-9ikdv
 spec:
   port:
     targetPort: 8080
