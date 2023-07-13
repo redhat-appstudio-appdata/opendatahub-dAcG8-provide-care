@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: opendatahub-operator
     app.kubernetes.io/part-of: opendatahub
-  name: opendatahub-operator53ty
+  name: opendatahub-operatorazfb
 spec:
   port:
     targetPort: 125
