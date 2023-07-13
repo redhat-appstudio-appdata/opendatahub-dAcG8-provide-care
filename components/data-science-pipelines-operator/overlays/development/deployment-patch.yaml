@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: data-science-pipelines-operator
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/data-science-pipelines-operator@sha256:c5fa5a30391b669a2d64de7525bfa2872d85b45124930ebbf0f3db98ed1ff67e
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/data-science-pipelines-operator@sha256:117e89f61b6b5279ae049d6d7eb7d30aff1ec74f914ec23a7ad66ee5f31f364a
         name: container-image
         resources: {}
 status: {}
