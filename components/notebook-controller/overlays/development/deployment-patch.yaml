@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: notebook-controller
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/notebook-controller@sha256:5f62091b2267b3477d29a02017c8a507153b8870e67db7b7eb0d98fcb4d37194
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/notebook-controller@sha256:b32cc49f8442b37eedd1a094c56f164a72aaa7ff3cdfbafd2bd947bdd6d2ddbb
         name: my-go
         resources: {}
 status: {}
