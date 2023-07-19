@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/odh-notebook-controller@sha256:afbab81c2e8594d8df7f9ae9807c3d00d5236bd388b6193c737921dc089563e2
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/odh-notebook-controller@sha256:44c55912de337276b1efc1f761485afb3f499eeb6a7e39d40d11e8d7b20a2c1b
         name: container-image
         resources: {}
 status: {}
