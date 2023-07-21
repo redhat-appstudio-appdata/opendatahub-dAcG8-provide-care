@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: data-science-pipelines-operator
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/data-science-pipelines-operator@sha256:6673f0cd542d10da1d2f27c4ca2b203642a2ccd90020ce6c736cc09ea35a48a5
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/data-science-pipelines-operator@sha256:0b5e07ebec5324695417596c0c90972085e8468526c3a3128cdadbcfe0833d04
         imagePullPolicy: Always
         name: container-image
         ports:
