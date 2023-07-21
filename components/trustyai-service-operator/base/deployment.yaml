@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: trustyai-service-operator
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/trustyai-service-operator@sha256:49554aa20d2eccf7a1502b3d43cff09e1a5b06d5b8e5a5557556b9a28472e1c4
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/trustyai-service-operator@sha256:8100299ae6cd202ed2ea4bc227a298d197872bc60abd2b8cf66814195a9c64cd
         imagePullPolicy: Always
         name: container-image
         resources:
