@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/odh-dashboard-main@sha256:4ad9a38d11829cc667d0bbd09f122d865bb704c9e3f45c98d6a58206fdc26bc9
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/odh-dashboard-main@sha256:0c2e7ce7419ac24371367bc60a4e3c5ce68e4b3dd813c306365f11edd5bfb60a
         name: container-image
         resources: {}
 status: {}
