@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kserve
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/kserve@sha256:b1dd119367accd7eab82cfe6882b8c3b23365860ae9bddd51be1f68a558962ed
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/kserve@sha256:99ba0c274041a4f2bfbf19b0266268dcfd34a1874cfb4241b5c21461c5984439
         imagePullPolicy: Always
         name: container-image
         ports:
