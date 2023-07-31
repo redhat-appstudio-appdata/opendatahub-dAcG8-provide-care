@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/data-science-pipelines-operator@sha256:fb1e324b24c9ad13cdf5e69034866a13da87199f34c470013fcb2c811fb97f4f
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/data-science-pipelines-operator@sha256:0230141337832984889d39a8322c8f9325da579e020b0335d2df3a8409083a19
         name: container-image
         resources: {}
 status: {}
