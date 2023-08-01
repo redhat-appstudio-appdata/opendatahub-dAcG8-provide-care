@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: trustyai-explainability-7ffg
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/trustyai-explainability-7ffg@sha256:8e34bb066ee25402f7132aa8dc08f0eec0db1aed4b65fded0e32dfe20e26fe76
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/trustyai-explainability-7ffg@sha256:1ce44b1963ccc0a03c7284fc60661a72b82a606f7d65c15f0d8ace429983e0e6
         imagePullPolicy: Always
         name: container-image
         ports:
