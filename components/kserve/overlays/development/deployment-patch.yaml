@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/kserve@sha256:e663a1aeeba5fc0f914a6a64ab01e5953c6e1519d072d8fbafeca8ef465931ca
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/kserve@sha256:1a8f255d7643183e508cf03a07211d82603ecf26c9671de9919191d5f24e493f
         name: container-image
         resources: {}
 status: {}
