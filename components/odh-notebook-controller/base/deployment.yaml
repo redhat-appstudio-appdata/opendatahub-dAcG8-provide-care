@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: odh-notebook-controller
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/odh-notebook-controller@sha256:6f09101062aadc00947162f90a0da11d5a01e5117e8ec65a7f951bf9553f3362
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/odh-notebook-controller@sha256:b9665d0ec6abe09f75559c877186da399f27831669e6adaba35eac25bd015f53
         imagePullPolicy: Always
         name: container-image
         ports:
