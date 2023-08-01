@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/modelmesh-fzxz@sha256:af7ab56550e6ce2963095791ede57e8b9e9dc14b9c0f2c6efc6dd82fe048405c
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/modelmesh-fzxz@sha256:087b250724de0b3a0a60f571253eb68399b724c8cca07210d97276864f68ba64
         name: container-image
         resources: {}
 status: {}
