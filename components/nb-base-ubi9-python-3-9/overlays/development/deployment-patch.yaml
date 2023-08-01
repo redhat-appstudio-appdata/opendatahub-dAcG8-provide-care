@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/nb-base-ubi9-python-3-9@sha256:994792b565c573d19e49f1f1b7607ab066ee1a7cef64c2506cca170896633deb
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/nb-base-ubi9-python-3-9@sha256:58655c80454166c50d19de2b06d77a0aa07bd88894278821749b89376e72189a
         name: container-image
         resources: {}
 status: {}
