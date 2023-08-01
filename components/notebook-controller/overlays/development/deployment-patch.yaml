@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/notebook-controller@sha256:5c8e32da027edd46919d3900899cd6ca6e8dc44d083e4288fe3edaa880f68913
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/notebook-controller@sha256:eaad96cf7793336a8a014e2560ff6e1b8407309d07a5e28701ca641f12e6944e
         name: my-go
         resources: {}
 status: {}
