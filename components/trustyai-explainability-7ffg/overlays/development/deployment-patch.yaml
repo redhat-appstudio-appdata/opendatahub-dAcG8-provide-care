@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/trustyai-explainability-7ffg@sha256:3cdb9cd47607bf51d988165645e43bf48621eb71864b077a9f3c211ace197e55
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/trustyai-explainability-7ffg@sha256:c51f1f8c57bd697e5f9c1619b8ec54f48cb824c937f150c0ca3052d412023cc8
         name: container-image
         resources: {}
 status: {}
