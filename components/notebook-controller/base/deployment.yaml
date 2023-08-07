@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: notebook-controller
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/notebook-controller@sha256:cb47af9d403cec7f91b9599007238c72dc13a55ff787a0efc65a4ec4e536a80c
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/notebook-controller@sha256:eea31e3843fec7abf946f8f351e2f03c9be1d2a00ccf3eda08192068f3f052b7
         name: my-go
         ports:
         - containerPort: 8081
