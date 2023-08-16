@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: modelmesh-fzxz
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/modelmesh-fzxz@sha256:58c08fe6c08e7b98030f2990cd95ce85ca22a929573549ecc62a68d51ef00ed5
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/modelmesh-fzxz@sha256:ae851170decdb2cd26d63389e4af24a825f00ce205345c252a61022839892e18
         imagePullPolicy: Always
         name: container-image
         ports:
