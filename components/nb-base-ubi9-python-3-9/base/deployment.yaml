@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: nb-base-ubi9-python-3-9
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/nb-base-ubi9-python-3-9@sha256:994792b565c573d19e49f1f1b7607ab066ee1a7cef64c2506cca170896633deb
+      - image: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/nb-base-ubi9-python-3-9@sha256:4a94f1fcbae0007c12d5a7302245d284577429fac0da2a0fe75d772fc7616a1f
         imagePullPolicy: Always
         name: container-image
         ports:
