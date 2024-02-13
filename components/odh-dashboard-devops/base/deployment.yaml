@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: opendatahub
   name: odh-dashboard-devops
 spec:
-  replicas: 2
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
